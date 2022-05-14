@@ -204,7 +204,7 @@ box-shadow: 3px 6px rgba(0, 0, 0, 0.25);
 
 @media (max-width:580px)  {
   .weather-container {
-    width: 80%;
+    width: 95%;
   }
   .more-info {
     font-size: 0.8rem;
