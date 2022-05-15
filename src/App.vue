@@ -48,13 +48,19 @@
    </div>
  </div>
 </div>
-
+ <footer-comp>
+ </footer-comp>
 </template>
 
 <script>
+import FooterComp from './components/FooterComp.vue';
 
-  export default {
+export default {
   name: 'app',
+  components: {
+    FooterComp,
+  },
+
   data() {
     return {
       api_key: "56ad7118082006e8f85c6b4bff092350",
@@ -98,13 +104,12 @@
 
 <style>
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Raleway:wght@100&display=swap');
 
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: "Raleway";
 text-align: center;
 color:#fff;
 }
@@ -123,6 +128,7 @@ margin: 0 auto;
 border-radius: 40px;
 margin-top: 30px;
 box-shadow: 0px 0px 40px #f3f3f365;
+font-family: "Raleway";
 }
 
 .weather-wrapper {
