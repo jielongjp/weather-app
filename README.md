@@ -2,6 +2,8 @@
 
 A basic weather app built with vue.js using the OpenWeatherMap API (https://openweathermap.org) 
 
+App deployed here: https://weather-app-jielong.netlify.app
+
 ## Screenshots
 
 ![weather app screenshot](https://i.imgur.com/XZxBgAR.png?1)
